@@ -1,3 +1,27 @@
+<script setup lang="ts">
+import { useAuthStore } from '@/stores/auth'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+const auth = useAuthStore()
+
+function handleSubmit(event: Event) {
+  event.preventDefault()
+  // TODO validate input data
+  attemptRegister()
+}
+
+async function attemptRegister() {
+  try {
+    auth.register()
+
+    router.replace('/')
+  } catch (e) {
+    router.replace('/500')
+  }
+}
+</script>
+
 <template>
   <section class="bg-gray-50 dark:bg-gray-900">
     <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
@@ -21,7 +45,7 @@
           >
             Create and account
           </h1>
-          <form class="space-y-4 md:space-y-6" action="#">
+          <form class="space-y-4 md:space-y-6" action="#" @submit="handleSubmit">
             <div>
               <label
                 for="email"

@@ -1,3 +1,27 @@
+<script setup lang="ts">
+import { useAuthStore } from '@/stores/auth'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+const auth = useAuthStore()
+
+function handleSubmit(event: Event) {
+  event.preventDefault()
+  // TODO validate input data from the annoymous visitor to be identified
+  attemptLogin()
+}
+
+async function attemptLogin() {
+  try {
+    await auth.login()
+
+    router.replace('/')
+  } catch (e) {
+    router.replace('/500')
+  }
+}
+</script>
+
 <template>
   <section class="bg-gray-50 dark:bg-gray-900">
     <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
@@ -10,7 +34,7 @@
           >
             Sign in to your account
           </h1>
-          <form class="space-y-4 md:space-y-6" action="#">
+          <form class="space-y-4 md:space-y-6" action="#" @submit="handleSubmit">
             <div>
               <label
                 for="email"
@@ -49,7 +73,6 @@
                     aria-describedby="remember"
                     type="checkbox"
                     class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
-                    required
                   />
                 </div>
                 <div class="ml-3 text-sm">

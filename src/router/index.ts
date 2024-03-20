@@ -26,6 +26,11 @@ const router = createRouter({
       component: () => import('../views/ContactUsView.vue')
     },
     {
+      path: '/dashboard',
+      name: 'Dashboard',
+      component: () => import('../views/dashboard/DashboardView.vue')
+    },
+    {
       path: '/login',
       name: 'Login',
       component: () => import('../views/auth/LoginView.vue')
@@ -34,6 +39,11 @@ const router = createRouter({
       path: '/register',
       name: 'Register',
       component: () => import('../views/auth/RegisterView.vue')
+    },
+    {
+      path: '/500',
+      name: 'Internal Error',
+      component: () => import('../views/InternalErrorView.vue')
     },
     {
       path: '/:pathMatch(.*)*',
