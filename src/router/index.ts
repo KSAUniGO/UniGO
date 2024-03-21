@@ -26,9 +26,24 @@ const router = createRouter({
       component: () => import('../views/ContactUsView.vue')
     },
     {
-      path: '/dashboard',
-      name: 'Dashboard',
-      component: () => import('../views/dashboard/DashboardView.vue')
+      path: '/app/@me/overview',
+      name: 'Overview',
+      component: () => import('../views/app/OverviewView.vue')
+    },
+    {
+      path: '/app/@me/upcoming',
+      name: 'Upcoming',
+      component: () => import('../views/app/UpcomingView.vue')
+    },
+    {
+      path: '/app/@me/history',
+      name: 'History',
+      component: () => import('../views/app/HistoryView.vue')
+    },
+    {
+      path: '/app/@me/settings',
+      name: 'Settings',
+      component: () => import('../views/app/SettingsView.vue')
     },
     {
       path: '/login',

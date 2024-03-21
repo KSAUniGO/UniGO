@@ -29,5 +29,10 @@ export const useAuthStore = defineStore('auth', () => {
     }
   }
 
-  return { user, login, register }
+  async function signOut() {
+    if (user.value) return
+    _user.value = undefined
+  }
+
+  return { user, login, register, signOut }
 })
