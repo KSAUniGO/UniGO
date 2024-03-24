@@ -3,11 +3,13 @@
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="max-w-screen-md mb-8 lg:mb-16">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-          Designed for business teams like yours
+          Designed primarily for university students who rely on bus transportation to navigate
+          their university and its surrounding areas
         </h2>
         <p class="text-gray-500 sm:text-xl dark:text-gray-400">
-          Here at Flowbite we focus on markets where technology, innovation, and capital can unlock
-          long-term value and drive economic growth.
+          Here, we provide university students with real-time bus schedules, customized routes, live
+          updates, trip planning tools, fare information, and university alerts—all in one
+          convenient app.
         </p>
       </div>
       <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
@@ -28,10 +30,10 @@
               ></path>
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">Marketing</h3>
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Convenience</h3>
           <p class="text-gray-500 dark:text-gray-400">
-            Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit
-            your marketing goals every month with our marketing plan.
+            It offers a convenient way for university students to navigate their university
+            transportation systems, saving time and reducing stress associated with commuting.
           </p>
         </div>
         <div>
@@ -49,10 +51,10 @@
               ></path>
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">Legal</h3>
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Real-time Updates</h3>
           <p class="text-gray-500 dark:text-gray-400">
-            Protect your organization, devices and stay compliant with our structured workflows and
-            custom permissions made for you.
+            UniGO provides real-time information on bus schedules and any changes, ensuring students
+            can plan their journeys effectively and adapt to any unexpected delays.
           </p>
         </div>
         <div>
@@ -75,10 +77,10 @@
               ></path>
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">Business Automation</h3>
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Customization</h3>
           <p class="text-gray-500 dark:text-gray-400">
-            Auto-assign tasks, send Slack messages, and much more. Now power up with hundreds of new
-            templates to help you get started.
+            The app offers customized routes and information specific to each university, catering
+            to the unique transportation needs of students at different universities.
           </p>
         </div>
         <div>
@@ -101,10 +103,11 @@
               ></path>
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">Finance</h3>
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Efficiency</h3>
           <p class="text-gray-500 dark:text-gray-400">
-            Audit-proof software built for critical financial operations like month-end close and
-            quarterly budgeting.
+            With trip planning features and route optimization, UniGO helps students maximize their
+            efficiency in getting to and from classes, extracurricular activities, and other
+            university destinations.
           </p>
         </div>
         <div>
@@ -122,10 +125,10 @@
               ></path>
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">Enterprise Design</h3>
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Cost-effectiveness</h3>
           <p class="text-gray-500 dark:text-gray-400">
-            Craft beautiful, delightful experiences for both marketing and product with real
-            cross-company collaboration.
+            By providing fare information and options for budgeting transportation expenses, UniGO
+            helps students manage their finances more effectively.
           </p>
         </div>
         <div>
@@ -145,10 +148,11 @@
               ></path>
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">Operations</h3>
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Enhanced Campus Experience</h3>
           <p class="text-gray-500 dark:text-gray-400">
-            Keep your company’s lights on with customizable, iterative, and structured workflows
-            built for all efficient teams and individual.
+            By simplifying transportation logistics, UniGO contributes to an overall improved
+            university experience, allowing students to focus more on their studies and involvement
+            in campus life.
           </p>
         </div>
       </div>

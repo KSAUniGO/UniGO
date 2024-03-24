@@ -18,7 +18,7 @@ import HomeHero from '@/components/home/HomeHero.vue'
             Start your free trial today
           </h2>
           <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">
-            Try Flowbite Platform for 30 days. No credit card required.
+            Try UniGo Platform for 30 days. No credit card required.
           </p>
           <a
             href="#"
