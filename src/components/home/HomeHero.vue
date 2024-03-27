@@ -1,6 +1,6 @@
 <template>
   <section class="bg-container dark:bg-gray-900 lg:py-16">
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
+    <div class="grid max-w-screen-xl px-4 pt-8 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
       <div class="mr-auto place-self-center lg:col-span-7">
         <h1
           class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
@@ -38,11 +38,12 @@
         </a>
       </div>
       <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="@/assets/img/hero.gif?v=1" alt="mockup" />
+        <img src="@/assets/img/hero.gif" alt="mockup" />
       </div>
     </div>
+    <div class="bg-road bg-contain min-h-32 min-w-full mb-4"></div>
     <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg">
-      <span class="font-semibold text-gray-400 uppercase">FEATURED IN</span>
+      <span class="font-semibold text-gray-400 uppercase">OUR UNIVERSITIES</span>
       <div class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-evenly">
         <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
           <img class="max-h-20" src="./../../assets/img/uni/imam-uni.png" />

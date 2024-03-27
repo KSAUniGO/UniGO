@@ -91,6 +91,28 @@ async function attemptRegister() {
                 required
               />
             </div>
+
+            <label
+              for="university"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Select your university</label
+            >
+            <select
+              id="university"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            >
+              <option>Imam Mohammad Ibn Saud Islamic University</option>
+              <option>King Saud University</option>
+              <option>Princess Nourah bint Abdulrahman University</option>
+              <option>Taif University</option>
+              <option>King Khalid University</option>
+              <option>King Fahd University of Petroleum and Minerals</option>
+              <option>King Abdulaziz University</option>
+              <option>Prince Sultan University</option>
+              <option>Umm Al-Qura University</option>
+              <option>King Abdullah University of Science and Technology</option>
+            </select>
+
             <div class="flex items-start">
               <div class="flex items-center h-5">
                 <input
