@@ -2,10 +2,10 @@
   <ol class="relative border-s border-gray-200 dark:border-gray-700">
     <li class="mb-10 ms-6">
       <span
-        class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+        class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900"
       >
         <svg
-          class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+          class="w-2.5 h-2.5 text-primary-800 dark:text-primary-300"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -19,7 +19,7 @@
       <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
         Flowbite Application UI v2.0.0
         <span
-          class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3"
+          class="bg-primary-100 text-primary-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-primary-900 dark:text-primary-300 ms-3"
           >Latest</span
         >
       </h3>
@@ -32,7 +32,7 @@
       </p>
       <a
         href="#"
-        class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+        class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
         ><svg
           class="w-3.5 h-3.5 me-2.5"
           aria-hidden="true"
@@ -52,10 +52,10 @@
     </li>
     <li class="mb-10 ms-6">
       <span
-        class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+        class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900"
       >
         <svg
-          class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+          class="w-2.5 h-2.5 text-primary-800 dark:text-primary-300"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -79,10 +79,10 @@
     </li>
     <li class="ms-6">
       <span
-        class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+        class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900"
       >
         <svg
-          class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+          class="w-2.5 h-2.5 text-primary-800 dark:text-primary-300"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
