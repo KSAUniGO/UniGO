@@ -3,6 +3,7 @@ import { onMounted } from 'vue'
 import { initFlowbite } from 'flowbite'
 import { useAuthStore } from '@/stores/auth'
 import { useRouter } from 'vue-router'
+import ThemeSwitcher from '../ThemeSwitcher.vue'
 
 const router = useRouter()
 const auth = useAuthStore()
@@ -17,7 +18,7 @@ function handleSignOut() {
 
 <template>
   <nav
-    class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700"
+    class="fixed top-0 z-50 w-full bg-container border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700"
   >
     <div class="px-3 py-3 lg:px-5 lg:pl-3">
       <div class="flex items-center justify-between">
@@ -44,18 +45,11 @@ function handleSignOut() {
               ></path>
             </svg>
           </button>
-          <a href="https://flowbite.com" class="flex ms-2 md:me-24">
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="h-8 me-3"
-              alt="FlowBite Logo"
-            />
-            <span
-              class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white"
-              >Flowbite</span
-            >
-          </a>
+          <RouterLink to="/">
+            <img class="md:max-w-32" src="@/assets/img/logo.png" />
+          </RouterLink>
         </div>
+        <ThemeSwitcher />
         <div class="flex items-center">
           <div class="flex items-center ms-3">
             <div>
@@ -74,7 +68,7 @@ function handleSignOut() {
               </button>
             </div>
             <div
-              class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600"
+              class="z-50 hidden my-4 text-base list-none bg-container divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600"
               id="dropdown-user"
             >
               <div class="px-4 py-3" role="none">
@@ -131,10 +125,10 @@ function handleSignOut() {
 
   <aside
     id="logo-sidebar"
-    class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700"
+    class="fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-container border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700"
     aria-label="Sidebar"
   >
-    <div class="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
+    <div class="h-full px-3 pb-4 overflow-y-auto bg-container dark:bg-gray-800">
       <ul class="space-y-2 font-medium">
         <li>
           <RouterLink

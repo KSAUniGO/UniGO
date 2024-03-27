@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white dark:bg-gray-900 lg:py-16">
+  <section class="bg-container dark:bg-gray-900 lg:py-16">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
       <div class="mr-auto place-self-center lg:col-span-7">
         <h1
@@ -38,7 +38,7 @@
         </a>
       </div>
       <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-        <img src="@/assets/img/bus-0.png" alt="mockup" />
+        <img src="@/assets/img/hero.gif?v=1" alt="mockup" />
       </div>
     </div>
     <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg">

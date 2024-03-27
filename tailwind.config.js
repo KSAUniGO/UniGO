@@ -1,11 +1,11 @@
 /*eslint-env node*/
 /** @type {import('tailwindcss').Config} */
 export default {
-  darkMode: 'media',
   content: ['/node_modules/flowbite/**/*.js', './index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
+        container: '#f4f4fb',
         primary: {
           50: '#f4f7fb',
           100: '#e8eef6',

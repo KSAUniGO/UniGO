@@ -5,8 +5,10 @@ import UniNavbar from './components/UniNavbar.vue'
 import { computed, ref } from 'vue'
 import { useAuthStore } from './stores/auth'
 import UniSideNav from './components/app/UniSideNav.vue'
+import { useTheme } from './stores/theme'
 
 const router = useRouter()
+const theme = useTheme()
 const auth = useAuthStore()
 
 const isInsideApp = ref(false)
@@ -26,7 +28,7 @@ router.beforeEach((from) => {
 
   <br />
 
-  <main class="pt-4 lg:pt-8">
+  <main class="bg-container dark:bg-gray-900 pt-4 lg:pt-20" :class="{ invert: theme.isInverted }">
     <UniSideNav v-if="isInsideApp">
       <RouterView />
     </UniSideNav>
@@ -36,4 +38,3 @@ router.beforeEach((from) => {
     <UniFooter v-if="onlyOutsideApp" />
   </main>
 </template>
-./components/UniFooter.vue

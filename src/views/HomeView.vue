@@ -9,7 +9,7 @@ import HomeHero from '@/components/home/HomeHero.vue'
     <HomeHero />
     <HomeFeatures />
 
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-container dark:bg-gray-900">
       <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-sm text-center">
           <h2
