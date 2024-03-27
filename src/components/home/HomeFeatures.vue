@@ -148,11 +148,11 @@
               ></path>
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold dark:text-white">Enhanced Campus Experience</h3>
+          <h3 class="mb-2 text-xl font-bold dark:text-white">Enhanced University Experience</h3>
           <p class="text-gray-500 dark:text-gray-400">
             By simplifying transportation logistics, UniGO contributes to an overall improved
             university experience, allowing students to focus more on their studies and involvement
-            in campus life.
+            in university life.
           </p>
         </div>
       </div>
