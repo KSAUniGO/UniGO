@@ -49,13 +49,13 @@
           <img class="max-h-20" src="./../../assets/img/uni/imam-uni.png" />
         </a>
         <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
-          <img class="max-h-20" src="./../../assets/img/uni/kaust-uni.jpg" />
+          <img class="max-h-20" src="./../../assets/img/uni/kaust-uni.png" />
         </a>
         <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
           <img class="max-h-28" src="./../../assets/img/uni/kfupm-uni.png" />
         </a>
         <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
-          <img class="max-h-28" src="./../../assets/img/uni/king-abdulaziz-uni.jpg" />
+          <img class="max-h-28" src="./../../assets/img/uni/king-abdulaziz-uni.png" />
         </a>
         <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
           <img class="max-h-28" src="./../../assets/img/uni/king-khaled-uni.png" />
@@ -64,10 +64,10 @@
           <img class="max-h-28" src="./../../assets/img/uni/ksu-uni.png" />
         </a>
         <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
-          <img class="max-h-28" src="./../../assets/img/uni/prince-sultan-uni.jpg" />
+          <img class="max-h-28" src="./../../assets/img/uni/prince-sultan-uni.png" />
         </a>
         <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
-          <img class="max-h-28" src="./../../assets/img/uni/princess-uni.jpg" />
+          <img class="max-h-28" src="./../../assets/img/uni/princess-uni.png" />
         </a>
         <a href="#" class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
           <img class="max-h-28" src="./../../assets/img/uni/taif-uni.png" />
