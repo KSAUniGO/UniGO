@@ -21,6 +21,9 @@
         <li>
           <RouterLink to="/contact-us" class="mr-4 hover:underline md:mr-6">Contact</RouterLink>
         </li>
+        <li>
+          <RouterLink to="/terms" class="mr-4 hover:underline md:mr-6">Terms Of Service</RouterLink>
+        </li>
       </ul>
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
         >© 2024 <a href="#" class="hover:underline">UniGo™</a>. All Rights Reserved.</span
